@@ -1,0 +1,72 @@
+/*************************************************/
+/*具体功能的界面设计*/
+/*总体布局大小*/
+#main_content-left{
+    width:800px ;
+}
+/*文章列表每一行的标头*/
+.header{
+    margin-top: 5px;
+}
+/*作者的头像*/
+.author-img{
+    margin-top: 10px;
+}
+/*作者的昵称*/
+#author-nickname{
+}
+/*文章标题*/
+.title{
+    height: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/*中间部分*/
+.middle{
+    height: 140px;
+    overflow: hidden;
+}
+/*文章主题部分*/
+.article-main-content{
+    width: 700px;
+    height: 80px;
+    overflow:hidden;
+    margin: 6px;
+}
+/*文章主题*/
+.content{
+}
+.portrait{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 0 5px 5px;
+}
+#author-nickname{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    margin: 5px 0 5px 5px;
+    color:black;
+}
+.title{
+    font-size: 16px;
+    color: black;
+    font-weight: 200;
+}
+.bottom{
+    margin-top: 10px;
+}
+#comment,#stars,#share{
+    float: left;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+.publishedTime{
+    font-size: 12px;
+    color: gray;
+}
+hr{
+    width: 700px;
+}

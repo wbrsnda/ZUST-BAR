@@ -1,0 +1,26 @@
+h1{
+    background: #000;
+    color:white;
+    font-size:68px;
+    font-family:STHupo;
+    text-align:center;
+    height: min-content;
+}
+a{
+    font-family: STHupo;
+    outline: none;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:28px;
+    color: #551A8B;
+}
+#a1{
+    position:absolute;
+    top:300px;
+    left:150px;
+}
+#a2{
+    position:absolute;
+    top:300px;
+    right:150px;
+}

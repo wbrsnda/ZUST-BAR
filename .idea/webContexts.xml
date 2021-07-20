@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/alter.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/article_edit.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/article_show.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/doumail.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/doumail_show.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/index.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/login.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/my_page.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/privatemail_show.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/register.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+        <entry key="file://$PROJECT_DIR$/WebContent/jsp/reset_pwd.jsp" value="file://$PROJECT_DIR$/WebContent/jsp" />
+      </map>
+    </option>
+  </component>
+</project>

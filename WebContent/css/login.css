@@ -1,0 +1,303 @@
+a:link,a:visited{/*去掉下划线*/
+    text-decoration:none;
+}
+/*绝对定位*/
+#login {
+    background-color: #f8f8f8;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 425px;
+    border-radius: 15px;
+    border: 3px solid #551A8B;
+    margin-top: 100px;
+}
+/*登录标题*/
+#header_h1{
+    padding: 20px 128px;
+    color: #111111;
+    font-family: STHupo;
+    text-align: center;
+}
+/*对表单元素中的input的输入框进行统一格式处理*/
+/*对齐中长方形*/
+#uname,#upwd {
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 3px solid #551A8B;
+    text-decoration: none;
+    width: 300px;
+    height: 42px;
+    display: block;/*显示为块级元素，此元素前后会带有换行符*/
+    color: black;
+    font-size: 14px;
+}
+#uname,#upwd{/*输入框的初始化布局设置*/
+    background-color:white;
+    padding-left: 10px;
+    border: 1px solid #551A8B;
+}
+#name{
+    top: -34px;
+}
+#pwd{
+    top: -34px;
+}
+#verify{
+    top: -34px;
+}
+/*登录按钮的样式*/
+#entry{
+    background-color: #0091ff;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 10px;
+    margin-left:50px;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border-style: none;
+    font-size: 18px;
+    font-family: STHupo;
+}
+/*输入框被点击时发生反应*/
+#uname:focus {
+    background: white;/*输入框背景颜色*/
+    border: 1px solid grey;/*边框大小和颜色*/
+}
+#upwd:focus {
+    background: white;
+    border: 1px solid grey;
+}
+#entry:hover{
+    background: blue;
+}
+/*验证码的输入框*/
+#verify_code{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    vertical-align:middle;/*input img同一行的方法*/
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border-style: none;
+    width: 200px;
+    height: 42px;
+    color: black;
+    font-size: 14px;
+}
+/*验证码图片*/
+#verify_pic{
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border-style: none;
+    width: 85px;
+    height: 42px;
+    vertical-align:middle;
+}
+/*验证码一行*/
+.verify_inner{
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border-style: none;
+    width: 300px;
+    height: 42px;
+    color: black;
+    font-size: 14px;
+}
+/*设置换验证码按钮的位置*/
+#btn{
+    margin-left:45px;
+    color:#220903;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    border-style: none;
+    background-color: grey;
+    font-family: STHupo;
+    font-size: 15px;
+}
+/*div的设置统一长方形方块*/
+.login_level{
+    width: 350px;
+    height: 50px;
+    margin-left:50px;
+}
+/*三个按钮*/
+#select{
+    width: 350px;
+    height: 30px;
+    margin-left:50px;
+}
+/*底部两个链接的位置*/
+#login_bottom_find{
+    margin-left: 50px;
+    border-style: none;
+    width: 300px;
+    height: 42px;
+    color: black;
+    font-size: 14px;
+}
+#login_bottom_sign{
+    margin-left:180px;
+    border-style: none;
+    width: 300px;
+    height: 42px;
+    font-size: 14px;
+}
+.b1{
+    font-family: "Adobe Arabic";
+    font-size: 14px;
+    font-weight: bold;
+}
+.b2{
+    font-family: "Adobe Arabic";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+a:hover,a:active{
+    color: #eb50d6;
+}
+input::placeholder {
+    font-size: 14px;
+    font-family: "Adobe Arabic";
+    letter-spacing: 1px;
+    color: grey;
+    text-align: center;
+}
+body{
+    background-image: url(../image/lo1.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: 0;
+    background-size:cover;
+}
+.mini_content_uname{
+    display: none;
+    position: relative;
+    left: 260px;
+    top: -30px;
+    padding: 6px 13px 6px 10px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.mini_content_uname::after,.mini_content_uname::before{
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+}
+.mini_content_uname::after{
+    border-color: transparent;
+    border-top-color: #f0fbff;
+    border-width: 6px;
+    margin-left: -6px;
+}
+.mini_content_uname::before{
+    border-color: transparent;
+    border-top-color: #c6c4bd;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.mini_content_upwd{
+    display: none;
+    position: relative;
+    left: 260px;
+    top: -30px;
+    padding: 6px 13px 6px 10px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.mini_content_upwd::after,.mini_content_upwd::before{
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+}
+.mini_content_upwd::after{
+    border-color: transparent;
+    border-top-color: #f0fbff;
+    border-width: 6px;
+    margin-left: -6px;
+}
+.mini_content_upwd::before{
+    border-color: transparent;
+    border-top-color: #c6c4bd;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.mini_content_verify{
+    display: none;
+    position: relative;
+    left: 260px;
+    top: -30px;
+    padding: 6px 13px 6px 10px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.mini_content_verify::after,.mini_content_verify::before{
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+}
+.mini_content_verify::after{
+    border-color: transparent;
+    border-top-color: #f0fbff;
+    border-width: 6px;
+    margin-left: -6px;
+}
+.mini_content_verify::before{
+    border-color: transparent;
+    border-top-color: #c6c4bd;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.mini_text{
+    height: 20px;
+    width: 90px;
+    float: left;
+}
+.close_mini{
+    float: left;
+    position: relative;
+}
+#func{
+    top: -34px;
+}

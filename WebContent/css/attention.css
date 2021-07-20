@@ -1,0 +1,57 @@
+#main_content{
+    width: 800px;
+    height: 1100px;
+    border-radius: 5px;
+    margin: auto 239px;
+    background-color: #e1dbdb;
+    opacity: 0.5;
+}
+/*我关注的人的信息*/
+.users_info_list{
+    width: 750px;
+    height:80px;
+    background-color: #ffffff;
+    margin-left:0;
+    border:1px solid #7f068d;/*设置边框边界的大小和颜色*/
+}
+/*其他人的头像*/
+#everyone_list_portrait{
+    margin-top:10px;
+    margin-left:5px;
+}
+/*使得两个div在同一行*/
+#everyone_list_img{
+    float:left;
+}
+/*我关注的人的基本信息*/
+#everyone_list_info{
+    float:left;
+}
+/*用户操作的按钮*/
+#everyone_list_operation{
+    margin-right: 24px;
+    margin-top: 37px;
+    float: right;
+    color:#551A8B;
+    font-family:STHupo;
+}
+/*--昵称和个性签名*/
+#everyone_list_nickname{
+    margin-top:10px;
+    margin-left:10px;
+    font-family: "Adobe Arabic";/*字体*/
+    color:#551A8B;
+    font-size: 22px;
+}
+#everyone_list_signature{
+    margin-top:10px;
+    margin-left:10px;
+    font-family: "Adobe Arabic";/*字体*/
+    color: #551A8B;
+    font-size: 22px;
+}
+/*用户操作超链接*/
+.operation{
+    font-family: STHupo;
+    color:#551A8B;
+}

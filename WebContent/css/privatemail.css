@@ -1,0 +1,68 @@
+#main_content{
+    width: 800px;
+    height: 1100px;
+    border-radius: 5px;
+    margin: auto 239px;
+    background-color: #e1dbdb;
+    opacity: 0.5;
+}
+.header{
+    height: 70px;
+}
+/*每一项的最大布局*/
+.item{
+    height: 80px;
+}
+/*发送者的头像的a*/
+#img_a{
+    width: 52px;
+    margin: 5px;
+    float: left;
+    height: 48px;
+}
+/*展示发送者的头像*/
+#fromUserImg_img{
+    width: 52px;
+    height: 52px;
+    margin: 3px;
+    border-radius: 2px;
+    float: left;
+}
+/*右半部分*/
+.right_part{
+    width: 700px;
+    float: left;
+    height: 80px;
+    margin: 5px;
+}
+/*右半上部分*/
+.right_up_part{
+    width: 675px;
+    height: 30px;
+}
+/*发送者的昵称*/
+#from_user_nickname{
+    margin: 5px 0 5px 5px;
+    color:black;
+    width: auto;
+    display:block;
+    float: left;
+    height: 20px;
+}
+/*右下部分*/
+.right_down_part{
+    width: 790px;
+    float: left;
+    height: 25px;
+    margin: 5px;
+
+}
+/*发送的时间*/
+#chat_time{
+    color: black;
+    width: auto;
+    display: block;
+    float: right;
+    font-size: 14px;
+    height: 20px;
+}

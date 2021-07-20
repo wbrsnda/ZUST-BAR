@@ -1,0 +1,35 @@
+/*放置主要的页面内容*/
+#main_content{
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    margin: auto 239px;
+    background-color: #e1dbdb;
+    opacity: 0.5;
+}
+/*页面的主要布局*/
+#main_content-left-top{
+    margin: 40px;
+}
+/*对话区的布局*/
+#main_content-left-centre{
+    height: auto;
+    width: 675px;
+}
+/*文本框*/
+textarea{
+    width: 98%;
+    height: 140px;
+}
+/*提交按钮*/
+#submit_btn{
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    height: 27px;
+    color: #f3eded;
+    width: 52px;
+    border-radius: 3px;
+    background-color: black;
+}

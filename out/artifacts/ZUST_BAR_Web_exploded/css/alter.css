@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*放置主要的页面内容*/
+#main_content{
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    margin: auto 239px;
+    background-color: #e1dbdb;
+    opacity: 0.5;
+}
+/*页面的主要布局*/
+#main_content-left-top{
+    margin: 40px;
+    font-family: "Adobe Arabic";
+    color: #551A8B;
+    font-size: 22px;
+    font-weight: bold;
+}
+#first_menu{
+    height:45px;
+    background-color: #111111;
+    border-top:5px solid #151313;/* 上边框 */
+    border-bottom: 5px solid #151313;/* 下边框 */
+}
+#first_menu a{
+    float:right;/*右对齐*/
+    font-family: STHupo;/*字体*/
+    color:#d5d5d5;
+    text-decoration:none;/*取消下划线*/
+    /* width:100px; */
+    padding:15px 15px;/*上下是0，左右是15*/
+    height:10px;
+    line-height:10px;/*行高等于高度可以文字垂直居中*/
+    font-size: 20px;
+    display:inline-block;/*显示成盒子大小*/
+}
+#first_menu a:hover{/*鼠标经过a链接*/
+    background-color: #240223;
+}
+/*带有图标的第二个导航栏*/
+#second{
+    height:74px;
+    overflow:hidden;/*防止外边距合并的问题*/
+    background-color: #121312;/*设置背景颜色*/
+    margin-bottom:50px;/*下方的空白处*/
+}
+/*让图标左浮动*/
+.logo{
+    float:left;
+    margin-right:50px;/*与右边的选项框相距50个像素*/
+}
+#second1 {
+    height: 74px;
+    overflow: hidden;
+    background-color: #121312;
+    margin-bottom: 50px;
+}

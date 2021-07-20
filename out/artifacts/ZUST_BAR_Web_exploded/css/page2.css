@@ -1,0 +1,15 @@
+/*分页选项的布局*/
+#paging{
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+}
+/*分页的文字说明*/
+#page_number{
+    margin-right:20px;
+}
+/*分页的超链接*/
+.page_contrller{
+    color:black;
+    background-color:orange;
+}

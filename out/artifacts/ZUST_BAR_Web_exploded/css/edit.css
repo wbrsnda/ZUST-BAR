@@ -1,0 +1,390 @@
+/*文章页面导航栏-外盒子*/
+#nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:75px;
+    zoom: 1;
+    margin-bottom: 0;
+    background: #0a0a0a;
+}
+/*文章页面导航栏功能的存放区--内盒子*/
+#nav-inner{
+    position: relative;
+    width: 630px;
+    margin: auto;/*居中*/
+    font-size: 0;
+    height: 100px;
+}
+/*文章编辑器的LOGO*/
+#nav-logo{
+    display: inline;
+    height: 100px;
+    margin-right: 20px;
+    width: 250px;
+    float: left;
+}
+/*超链接样式*/
+a {
+    cursor: pointer;
+    font-size: 14px;/*字体*/
+}
+a:link {
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+div {
+    display: block;
+    outline: none;
+}
+/*文章页面导航栏的标头*/
+#nav-label-div{
+    display: inline;
+    float:left;
+}
+/*标头中的文字*/
+.nav-label{
+    display: inline-block;
+    padding: 0;
+    font-size: 35px;
+    font-weight: lighter;/*字体的粗细*/
+    color: #bdbdbd;
+    text-align: center;
+    vertical-align: middle;/*设置元素的垂直对齐方式--把此元素放置在父元素的中部*/
+    line-height: 40px;/*行高*/
+    font-family: STHupo;
+}
+/*提交按钮div外盒子*/
+.editor-button-submit-div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-left: 5px;
+    white-space: nowrap;
+    background: #f8f8f8;
+
+}
+/*提交按钮的样式设置*/
+.editor-button-submit:link, .editor-button-submit:visited {
+    color: #fff;
+    background-color: #c00ae0;
+    width: 70px;
+    height:60px;
+    font-family: STHupo;
+    text-align: center;
+    vertical-align: center;
+    line-height: 60px;
+}
+a:visited {
+    color: #669;
+    text-decoration: none;
+}
+a:hover{/*鼠标经过a链接*/
+    background-color: #f8f8f8;/*显示的颜色*/
+}
+/*提交按钮--超链接*/
+.editor-button-submit{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    width: 36px;
+    line-height: 40px;
+    font-size: 20px;/*字体*/
+    color: #5e0554;
+    text-decoration:none;/*取消下划线*/
+}
+.editor-button-submit:hover{
+    color:black;
+}
+
+/*文章编辑的外盒子*/
+#edit-background{
+    height: 430px;
+}
+/**文章编辑的区域**/
+#article{
+
+    padding-top: 80px;
+    height: 530px;
+
+}
+/*文章布局*/
+#content{
+    float: none;
+    width: 675px;
+    margin: auto;
+    padding: 0;
+    height: 500px;
+}
+/*包含三大元素的大盒子*/
+#editor-element{
+    display: block;
+    width: 630px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    opacity: 0.5;
+}
+/*form表单提交*/
+#onSubmit{
+    height: 530px;
+}
+/*文章编辑的标题*/
+.editor-title {
+    height: 36px;
+    margin-bottom: 20px;
+}
+.editor-title .editor-input {
+
+    font-size: 1.786em;
+    font-weight: 600;
+    line-height: 1.42;
+    border: 0;
+}
+/*textarea的样式*/
+.editor-input {
+    box-sizing: border-box;
+    font-size: .928em;
+    border: 1px solid #eee;
+    background: #fff;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 0 20px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+/*文章编辑区*/
+#edit-article{
+    margin-bottom: 20px;
+    font-size: 0;
+    position: relative;
+}
+/*1-工具栏*/
+#controller-area{
+    font-size: 0;
+    color: black;
+    padding: 8px 15px;
+    background: #fff;
+    border-top: 1px solid #8e0680;/*水平分割线*/
+}
+/*工具栏中所有的按钮*/
+.util-btn {
+    position: relative;
+    display: inline-block;
+    margin-right: -7px;
+    padding-left: 18px;
+    padding-right: 5px;
+    width: 50px;
+    height: 20px;
+    color: black;
+    background: #e0d6e3;
+}
+/*写文字的地方*/
+/*2-文章编辑的背景色*/
+#edit-background{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 500px;
+}
+/*文章编辑处*/
+#edit-area{
+    padding: 16px 20px;
+    min-height: 400px;
+    overflow: auto;
+    background-color: #fafbfb;
+    margin-bottom: 118px;
+}
+
+/********************************************/
+/*弹出div窗口的区域*/
+/*分组的背景阴影色--弹出窗口*/
+#groups-wrapper{
+    display: block;
+    overflow: auto;
+    padding: 40px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(0,0,0,0.3);
+}
+/*a-弹出的表单窗口*/
+#groups-content{
+    display: block;
+    margin: auto;
+    max-width: 640px;
+    min-width: 240px;
+    background: #f8f8f8;
+    text-align: left;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    border-radius: 62px;
+    height: 600px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    width: 600px;
+}
+/*a1-弹出窗口的标头*/
+#groups-state{
+    width: auto;
+    height: 40px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 25px 40px 0;
+    margin: 0;
+}
+/*a1-1--弹出窗口的标中的内容*/
+#groups-state-details {
+    margin-top: 6px;
+    margin-left: 14px;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 2px;
+    display: block;
+    float: left;
+}
+/*a1-2--弹出窗口的关闭按钮*/
+#back-edit-href {
+    display: block;
+    float: left;
+    margin: 3px 0 9px 174px;
+    height: 20px;
+    width: 20px;
+}
+/*a2-弹出窗口的表单*/
+#groups-form{
+    background-color: #f8f8f8;
+    height: 500px;
+    padding: 15px 40px 30px;
+    border-radius: 10px;
+}
+/*a2-1--装输入框的容器*/
+#groups-input-container{
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: text;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 31px;
+}
+/*a2-2--布局调节*/
+#groups-input-wrapper {
+    height: 500px;
+}
+/*a2-3--分组选项的输入框外的div外盒子*/
+#groups-input-value {
+    height: 22px;
+
+    /* padding-top: 0px; */
+    /* padding-bottom: 0px; */
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+/*a2-4-a3-1-分组选项的输入框--DIV*/
+.groups-input-place-div {
+    display: block;
+    padding-left: 5px;
+    float: left;
+    width: 139px;
+    margin-left: 17px;
+    margin-right: 7px;
+    height: 25px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f8f8f8;
+}
+/*a2-4-a3-1-分组选项的输入框*/
+.groups-input-place{
+    margin-left: 9px;
+    background-color: transparent;
+    width: 120px;
+    height: 20px;
+    outline: none;
+}
+
+/*a3-2--装分组列表的多选框*/
+#groups-selectbox{
+    padding-top: 10px;;
+    overflow: auto;
+    width: 500px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-radius: 21px;
+
+}
+/*a3-2-1--装分组列表的多选框中的每个选项*/
+.groups-selectbox-option{
+    font-size: medium;
+    border-radius: 5px;
+    margin: 6px 15px 5px 16px;
+    padding-left: 14px;
+}
+/*a3-3--提交按钮组的操作*/
+#groups-submit-btns{
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/*a3-4--返回按钮*/
+#back-edit{
+    height:22px;
+    float: left;
+    margin-left: 88px;
+    margin-right: -10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+/*a3-5--提交按钮*/
+#groups-form-submit {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+    padding: 8px 30px;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #950893;
+    border-radius: 10px;
+    outline: none;
+    background-color: #860779;
+    font-size: 15px;
+    color: #fff;
+}
+/*对应放在链接上的颜色改变   */
+#back-edit-href:hover{
+    color:black;
+}
+#back-edit:hover{
+    color:black;
+}
+#groups-form-submit:hover{
+    color:black;
+}
+/*****************************/

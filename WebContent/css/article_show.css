@@ -1,0 +1,90 @@
+/*************************************************/
+/*具体功能的界面设计*/
+/*文章列表每一行的标头*/
+.header{
+    margin-top: 5px;
+}
+/*作者的头像*/
+.author-img{
+    margin-top: 10px;
+    border-radius: 4px;
+}
+/*作者的昵称*/
+#author-nickname{
+}
+/*文章标题*/
+.title{
+    height: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/*中间部分*/
+.middle{
+    height: auto;
+}
+/*文章主题部分*/
+.article-main-content{
+    height: auto;
+}
+/*文章主题---充当要被撑开的父盒子*/
+.content{
+    width: 675px;
+    height: auto;
+}
+/*文章内部具体修改*/
+/*文章的标头*/
+/*作者的头像*/
+/*文章发表时间*/
+#author-publishedTime{
+    margin: 5px 0 1px 26px;
+    color: black;
+    font-size: 14px;
+}
+/*按钮的布局*/
+.bottom_inner_div{
+    height: 50px;
+}
+/*用户可点击的按钮--用户互动*/
+.user_operation_btn{
+    color: grey;
+    float: right;
+    margin: 23px 9px;
+}
+/*按钮组*/
+.bottom{
+    margin-left: 270px;
+    margin-top: 60px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+/*评论区的布局*/
+#main_content-left-centre{
+    height: auto;
+    width: 675px;
+}
+/*文本框*/
+textarea{
+    width: 98%;
+    height: 140px;
+}
+/*评论区分页的选项*/
+#paging{
+    width: auto;
+    border: 1px solid #80808029;
+    border-radius: 35px;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-top: 57px;
+    padding: 8px 14px;
+    background-color: #fdfcf9;
+}
+/*提交按钮*/
+#submit_btn{
+    height: 27px;
+    color: #000000;
+    width: 52px;
+    border-radius: 3px;
+    background-color: white;
+    border:1px solid #551A8B;
+}
